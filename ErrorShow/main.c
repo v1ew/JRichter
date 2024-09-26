@@ -24,6 +24,9 @@ int main(int argc, char* argv[]) {
 		printf("%S\n", (PCTSTR)hLocal);
 		LocalFree(hLocal);
 	}
+	else {
+		printf("No code found.\n");
+	}
 
 	return 0;
 }
